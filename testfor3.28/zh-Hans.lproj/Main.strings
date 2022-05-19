@@ -1,0 +1,105 @@
+
+/* Class = "UIButton"; normalTitle = "Search Printer"; ObjectID = "00y-fg-cJM"; */
+"00y-fg-cJM.normalTitle" = "Search Printer";
+
+/* Class = "UIButton"; normalTitle = "Query"; ObjectID = "24S-YG-fft"; */
+"24S-YG-fft.normalTitle" = "Query";
+
+/* Class = "UILabel"; text = "QueryItem"; ObjectID = "2cJ-dO-YNk"; */
+"2cJ-dO-YNk.text" = "QueryItem";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "4oh-5Q-f7g"; */
+"4oh-5Q-f7g.text" = "Result";
+
+/* Class = "UILabel"; text = "Feed Button"; ObjectID = "60o-oK-mSl"; */
+"60o-oK-mSl.text" = "Feed Button";
+
+/* Class = "UILabel"; text = "QueryItem"; ObjectID = "7NO-hq-wtG"; */
+"7NO-hq-wtG.text" = "QueryItem";
+
+/* Class = "UILabel"; text = "FirmwareVersion"; ObjectID = "CXG-JW-iEQ"; */
+"CXG-JW-iEQ.text" = "FirmwareVersion";
+
+/* Class = "UIButton"; normalTitle = "80mm Print"; ObjectID = "EQ7-Th-vgH"; */
+"EQ7-Th-vgH.normalTitle" = "80mm Print";
+
+/* Class = "UIButton"; normalTitle = "56mm Print"; ObjectID = "F2L-jf-ufW"; */
+"F2L-jf-ufW.normalTitle" = "56mm Print";
+
+/* Class = "UILabel"; text = "PrinterName"; ObjectID = "HcV-Wa-O7b"; */
+"HcV-Wa-O7b.text" = "PrinterName";
+
+/* Class = "UILabel"; text = "Printer Name"; ObjectID = "OX7-Ns-jHC"; */
+"OX7-Ns-jHC.text" = "Printer Name";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "T56-8W-umR"; */
+"T56-8W-umR.text" = "Result";
+
+/* Class = "UILabel"; text = "Select Port"; ObjectID = "TiI-mB-vXS"; */
+"TiI-mB-vXS.text" = "Select Port";
+
+/* Class = "UIButton"; normalTitle = "Connect Printer"; ObjectID = "V2H-h4-mjF"; */
+"V2H-h4-mjF.normalTitle" = "Connect Printer";
+
+/* Class = "UILabel"; text = "Select Printer"; ObjectID = "ao9-8r-vX1"; */
+"ao9-8r-vX1.text" = "Select Printer";
+
+/* Class = "UILabel"; text = "VendorInformation"; ObjectID = "bHz-pU-RAz"; */
+"bHz-pU-RAz.text" = "VendorInformation";
+
+/* Class = "UILabel"; text = "ResolutionRatio"; ObjectID = "cFo-NW-q6a"; */
+"cFo-NW-q6a.text" = "ResolutionRatio";
+
+/* Class = "UILabel"; text = "Cash Drawer"; ObjectID = "hMC-hn-Vdv"; */
+"hMC-hn-Vdv.text" = "Cash Drawer";
+
+/* Class = "UILabel"; text = "UnRecoverable Error"; ObjectID = "hdY-F1-Qet"; */
+"hdY-F1-Qet.text" = "UnRecoverable Error";
+
+/* Class = "UILabel"; text = "Online Status"; ObjectID = "iPI-rJ-hOe"; */
+"iPI-rJ-hOe.text" = "Online Status";
+
+/* Class = "UILabel"; text = "Paper End"; ObjectID = "iXF-4k-GJt"; */
+"iXF-4k-GJt.text" = "Paper End";
+
+/* Class = "UILabel"; text = "HardwareSerial Number"; ObjectID = "ig0-G8-ZVS"; */
+"ig0-G8-ZVS.text" = "HardwareSerial Number";
+
+/* Class = "UIButton"; normalTitle = "Init Printer"; ObjectID = "jG9-Z7-rJe"; */
+"jG9-Z7-rJe.normalTitle" = "Init Printer";
+
+/* Class = "UISegmentedControl"; kT0-K4-SiL.segmentTitles[0] = "203 Dpi"; ObjectID = "kT0-K4-SiL"; */
+"kT0-K4-SiL.segmentTitles[0]" = "203 Dpi";
+
+/* Class = "UISegmentedControl"; kT0-K4-SiL.segmentTitles[1] = "180 Dpi"; ObjectID = "kT0-K4-SiL"; */
+"kT0-K4-SiL.segmentTitles[1]" = "180 Dpi";
+
+/* Class = "UITextField"; text = "9100"; ObjectID = "kfb-2s-cSI"; */
+"kfb-2s-cSI.text" = "9100";
+
+/* Class = "UILabel"; text = "Paper Near End"; ObjectID = "llI-yc-Ixq"; */
+"llI-yc-Ixq.text" = "Paper Near End";
+
+/* Class = "UILabel"; text = "Printer Error"; ObjectID = "nIj-tB-sP8"; */
+"nIj-tB-sP8.text" = "Printer Error";
+
+/* Class = "UIButton"; normalTitle = " Port Type "; ObjectID = "oc8-3a-DLu"; */
+"oc8-3a-DLu.normalTitle" = " Port Type ";
+
+/* Class = "UILabel"; text = "Search&Connect"; ObjectID = "tca-fU-pYl"; */
+"tca-fU-pYl.text" = "Search&Connect";
+
+/* Class = "UILabel"; text = "SoftwareVersion"; ObjectID = "v72-Q3-b5l"; */
+"v72-Q3-b5l.text" = "SoftwareVersion";
+
+/* Class = "UIButton"; normalTitle = " Printer Type "; ObjectID = "vHL-T9-8Bd"; */
+"vHL-T9-8Bd.normalTitle" = " Printer Type ";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "vu7-Ra-Y9h"; */
+"vu7-Ra-Y9h.normalTitle" = "Return";
+
+/* Class = "UIButton"; normalTitle = "Query"; ObjectID = "wZB-6G-G4x"; */
+"wZB-6G-G4x.normalTitle" = "Query";
+
+/* Class = "UILabel"; text = "Printer Cover Status"; ObjectID = "zM4-Om-o7c"; */
+"zM4-Om-o7c.text" = "Printer Cover Status";

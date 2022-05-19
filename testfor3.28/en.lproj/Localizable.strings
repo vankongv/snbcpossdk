@@ -1,0 +1,227 @@
+/* 
+  Localizable.strings
+  testfor3.28
+
+  Created by yuelin on 2020/11/27.
+  Copyright © 2020 yuelin. All rights reserved.
+*/
+
+"Language" = "English";
+
+"POS SDK Demo" = "POS SDK Demo";
+
+"Connect Printer" = "Connect Printer";
+
+"Sample" = "Sample";
+
+"Product Info" = "Product Info";
+
+"Communication" = "Communication";
+
+"Printer" = "Printer";
+
+"API" = "API";
+
+"Device Status" = "Device Status";
+
+"Appendix" = "Appendix";
+
+"Tips" = "Tips";
+
+"Please select printer type" = "Please select printer type";
+
+"Select Printer" = "Select Printer";
+
+"Printer Type" = "Printer Type";
+
+"QueryItem" = "QueryItem";
+
+"Result" = "Result";
+
+"FirmwareVersion" = "FirmwareVersion";
+
+"SoftwareVersion" = "SDKVersion";
+
+"VendorInfomation" = "VendorInfomation";
+
+"PrinterName" = "PrinterName";
+
+"HardwareSerial Number" = "HardwareSerial Number";
+
+"Query" = "Query";
+
+"Device Status" = "Device Status";
+
+"Online Status" = "Online Status";
+
+"Printer Cover Status" = "Printer Cover Status";
+
+"Paper End" = "Paper End";
+
+"Ready" = "Ready";
+
+"Offline" = "Offline";
+
+"Open" = "Open";
+
+"Closed" = "Closed";
+
+"Abnormal" = "Abnormal";
+
+"Normal" = "Normal";
+
+"Back" = "Back";
+
+"API Sample" = "API Sample";
+
+"Basic Setting" = "Basic Setting";
+
+"Text Print" = "Text Print";
+
+"Bitmap Print" = "Bitmap Print";
+
+"Barcode Print" = "Barcode Print";
+
+"PageMode" = "PageMode";
+
+"Other" = "Other";
+
+"Init Printer Error" = "Init Printer Error";
+
+"OK" = "OK";
+
+"Init Printer Success" = "Init Printer Success";
+
+"Please select port type" = "Please select port type";
+
+"BlueTooth" = "BlueTooth";
+
+"Port Type" = "Port Type";
+
+"Wifi" = "Wifi";
+
+"BlueTooth MFI" = "BlueTooth MFI";
+
+"Select Port" = "Select Port";
+
+"Search&Connect" = "Search&Connect";
+
+"Search Printer" = "Search Printer";
+
+"Return" = "Return";
+
+"Please select printer" = "Please select printer";
+
+"Connect Successful" = "Connect Successful";
+
+"No printer found" = "No printer found";
+
+"Connect Failure" = "Connect Failure";
+
+"Printer Sample" = "Printer Sample";
+
+"List" = "List";
+
+"56mm Receipt Sample" = "56mm Receipt Sample";
+
+"80mm Receipt Sample" = "80mm Receipt Sample";
+
+"80mm Supermarket Sample" = "80mm Supermarket Sample";
+
+"80mm Coupon Sample" = "80mm Coupon Sample";
+
+"80mm Coupon Sample(Rotation90)" = "80mm Coupon Sample(Rotation90)";
+
+"80mm Lottery Sample" = "80mm Lottery Sample";
+
+"80mm Restaurant Sample" = "80mm Restaurant Sample";
+
+"80mm Ticket Or Bank Sample" = "80mm Bank Sample";
+
+"80mm Takeaway Sample" = "80mm Takeaway Sample";
+
+"Print 56mm Receipt Sample" = "Print 56mm Receipt Sample";
+
+"Test Text 0 RightSpace" = "Test Text 0 RightSpace";
+
+"Test Text 2 RightSpace" = "Test Text 2 RightSpace";
+
+"Test Barcode - Code 128" = "Test Barcode - Code 128";
+
+"Test Print Flash Image" = "Test Print Flash Image";
+
+"Print      80mm      Receipt       Sample" = "Print      80mm      Receipt       Sample";
+
+"Test    Text      0      RightSpace" = "Test    Text      0      RightSpace";
+
+"Test    Text      2      RightSpace" = "Test    Text      2      RightSpace";
+
+"Test      Barcode - Code 128" = "Test      Barcode - Code 128";
+
+"Test      Print      Flash    Image" = "Test      Print      Flash    Image";
+
+"Supermarket Ticket" = "Supermarket Ticket";
+
+"Ginger A   Store   #12345REG   #02" = "Ginger A   Store   #12345REG   #02";
+
+"Date:2006-04-09            Time:18:30" = "Date:2006-04-09            Time:18:30";
+
+"Item         Qty               Amount" = "Item         Qty               Amount";
+
+"Apple          1               $1.00" = "Apple         1                $1.00";
+
+"Orange          2               $5.00" = "Orange        2                $5.00";
+
+"Brush          1               $3.8" = "Brush         1                $3.8";
+
+"Beer          2               $8.00" = "Beer          2                $8.00";
+
+"Subtotal:" = "Subtotal:";
+
+"Tax:" = "Tax:";
+
+"Total:                         $17.80" = "Total:                         $17.80";
+
+"Customer signature" = "Customer signature";
+
+"Thank you" = "Thank you";
+
+"Welcome next time" = "Welcome next time";
+
+"COUPON" = "COUPON";
+
+"FREE!!!" = "FREE!!!";
+
+"Unconnected Printer" = "Unconnected Printer";
+
+"Query status failed!" = "Query status failed!";
+
+"Printer status abnormal, please confirm and try again." = "Printer status abnormal, please confirm and try again.";
+
+"Print sample failed." = "Print sample failed.";
+
+"Failed" = "Failed";
+
+"Invalid handle" = "Invalid handle";
+
+"Invalid parameter" = "Invalid parameter";
+
+"File parameter error" = "File parameter error";
+
+"Read data error" = "Read data error";
+
+"Write data error" = "Write data error";
+
+"Not support" = "Not support";
+
+"Invalid bitmap" = "Invalid bitmap";
+
+"Load library failed" = "Load library failed";
+
+"Firmware not supported" = "Firmware not supported";
+
+"Unknown error" = "Unknown error";
+
+"Other error" = "Other error";
+
+"Close port failed" = "Close port failed";

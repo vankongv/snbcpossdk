@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>log_file_name</key>
+	<string>Log_Module.log</string>
+	<key>log_mode</key>
+	<string>Log_Mode_Rollback</string>
+	<key>log_level</key>
+	<string>Log_Level_Trace</string>
+	<key>max_file_size</key>
+	<real>20971520</real>
+	<key>max_backup_index</key>
+	<integer>20</integer>
+	<key>file_flush_size</key>
+	<integer>0</integer>
+	<key>log_format</key>
+	<string>%D%T%E%F%L%N</string>
+	<key>module_name</key>
+	<string>POSSDK</string>
+</dict>
+</plist>

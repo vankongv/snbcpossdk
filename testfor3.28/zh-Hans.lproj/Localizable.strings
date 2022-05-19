@@ -1,0 +1,227 @@
+/* 
+  Localizable.strings
+  testfor3.28
+
+  Created by yuelin on 2020/11/27.
+  Copyright © 2020 yuelin. All rights reserved.
+*/
+
+"Language" = "简体中文";
+
+"POS SDK Demo" = "POS SDK Demo";
+
+"Connect Printer" = "连接打印机";
+
+"Sample" = "示例";
+
+"Product Info" = "产品信息";
+
+"Communication" = "通讯";
+
+"Printer" = "打印机";
+
+"API" = "API";
+
+"Device Status" = "设备状态";
+
+"Appendix" = "附录";
+
+"Tips" = "提示";
+
+"Please select printer type" = "请选择打印机类型";
+
+"Select Printer" = "选择打印机";
+
+"Printer Type" = "打印机类型";
+
+"QueryItem" = "查询项";
+
+"Result" = "结果";
+
+"FirmwareVersion" = "固件版本";
+
+"SoftwareVersion" = "SDK版本";
+
+"VendorInfomation" = "厂家信息";
+
+"PrinterName" = "打印机名";
+
+"HardwareSerial Number" = "硬件序列号";
+
+"Query" = "查询";
+
+"Device Status" = "设备状态";
+
+"Online Status" = "在线状态";
+
+"Printer Cover Status" = "上盖状态";
+
+"Paper End" = "纸尽状态";
+
+"Ready" = "就绪";
+
+"Offline" = "未就绪";
+
+"Open" = "打开";
+
+"Closed" = "关闭";
+
+"Abnormal" = "不正常";
+
+"Normal" = "正常";
+
+"Back" = "返回";
+
+"API Sample" = "API 示例";
+
+"Basic Setting" = "基本设置";
+
+"Text Print" = "文本打印";
+
+"Bitmap Print" = "位图打印";
+
+"Barcode Print" = "条码打印";
+
+"PageMode" = "页模式";
+
+"Other" = "其他";
+
+"Init Printer Error" = "初始化打印机失败";
+
+"OK" = "好";
+
+"Init Printer Success" = "初始化打印机成功";
+
+"Please select port type" = "请选择端口类型";
+
+"BlueTooth" = "蓝牙";
+
+"Port Type" = "端口类型";
+
+"Wifi" = "无线网";
+
+"BlueTooth MFI" = "蓝牙 MFI";
+
+"Select Port" = "选择端口";
+
+"Search&Connect" = "搜索&连接";
+
+"Search Printer" = "搜索打印机";
+
+"Return" = "返回";
+
+"Please select printer" = "请选择打印机";
+
+"Connect Successful" = "连接成功";
+
+"No printer found" = "没有搜索到打印机";
+
+"Connect Failure" = "连接失败";
+
+"Printer Sample" = "打印机示例";
+
+"List" = "列表";
+
+"56mm Receipt Sample" = "56毫米收据样张";
+
+"80mm Receipt Sample" = "80毫米收据样张";
+
+"80mm Supermarket Sample" = "80毫米超市样张";
+
+"80mm Coupon Sample" = "80毫米优惠券样张";
+
+"80mm Coupon Sample(Rotation90)" = "80毫米优惠券样张(旋转90度)";
+
+"80mm Lottery Sample" = "80毫米彩票样张";
+
+"80mm Restaurant Sample" = "80毫米餐饮样张";
+
+"80mm Ticket Or Bank Sample" = "80毫米车票样张";
+
+"80mm Takeaway Sample" = "80毫米外卖样张";
+
+"Print 56mm Receipt Sample" = "打印 56mm 收据样张";
+
+"Test Text 0 RightSpace" = "测试 字符 右间距 0";
+
+"Test Text 2 RightSpace" = "测试 字符 右间距 2";
+
+"Test Barcode - Code 128" = "测试打印Code128码";
+
+"Test Print Flash Image" = "测试打印Flash位图";
+
+"Print      80mm      Receipt       Sample" = "打印 80mm 收据样张";
+
+"Test    Text      0      RightSpace" = "测试 字符 右间距 0";
+
+"Test    Text      2      RightSpace" = "测试 字符 右间距 2";
+
+"Test      Barcode - Code 128" = "测试打印Code128码";
+
+"Test      Print      Flash    Image" = "测试打印Flash位图";
+
+"Supermarket Ticket" = "超市 小票";
+
+"Ginger A   Store   #12345REG   #02" = "xxx   商店   #12345REG   #02";
+
+"Date:2006-04-09            Time:18:30" = "日期:2006-04-09            时间:18:30";
+
+"Item         Qty               Amount" = "商品         数量              小计";
+
+"Apple          1               $1.00" = "苹果          1                 1.00";
+
+"Orange          2               $5.00" = "桔子          2                 5.00";
+
+"Brush          1               $3.8" = "刷子          1                 3.80";
+
+"Beer          2               $8.00" = "啤酒          2                 8.00";
+
+"Subtotal:" = "小计:";
+
+"Tax:" = "税:";
+
+"Total:                         $17.80" = "合计:                         17.80";
+
+"Customer signature" = "客户签名";
+
+"Thank you" = "谢谢惠顾";
+
+"Welcome next time" = "欢迎下次光临";
+
+"COUPON" = "优惠券";
+
+"FREE!!!" = "免费!!!";
+
+"Unconnected Printer" = "未连接打印机";
+
+"Query status failed!" = "查询状态失败!";
+
+"Printer status abnormal, please confirm and try again." = "打印机状态异常，请检查后重试.";
+
+"Print sample failed." = "打印样张失败.";
+
+"Failed" = "失败";
+
+"Invalid handle" = "无效句柄";
+
+"Invalid parameter" = "无效参数";
+
+"File parameter error" = "文件参数错误";
+
+"Read data error" = "读取数据错误";
+
+"Write data error" = "下发数据错误";
+
+"Not support" = "不支持";
+
+"Invalid bitmap" = "位图错误";
+
+"Load library failed" = "加载动态库失败";
+
+"Firmware not supported" = "固件不支持";
+
+"Unknown error" = "未知错误";
+
+"Other error" = "其他错误";
+
+"Close port failed" = "关闭端口失败";
