@@ -120,6 +120,11 @@
                 [self.navigationController pushViewController:printerSample animated:true];
             } else {
                 UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Unconnected Printer") preferredStyle:UIAlertControllerStyleAlert];
+                [[alertVC popoverPresentationController] setSourceView:self.view];
+                [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+                [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+                
+
                 UIAlertAction *characterType = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 }];
                 [alertVC addAction:characterType];
@@ -135,6 +140,11 @@
                 [self.navigationController pushViewController:apiSample animated:true];
             } else {
                 UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Unconnected Printer") preferredStyle:UIAlertControllerStyleAlert];
+                [[alertVC popoverPresentationController] setSourceView:self.view];
+                [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+                [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+                
+
                 UIAlertAction *characterType = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 }];
                 [alertVC addAction:characterType];
@@ -150,6 +160,11 @@
                 [self.navigationController pushViewController:deviceStatusSample animated:true];
             } else {
                 UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Unconnected Printer") preferredStyle:UIAlertControllerStyleAlert];
+                [[alertVC popoverPresentationController] setSourceView:self.view];
+                [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+                [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+                
+
                 UIAlertAction *characterType = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 }];
                 [alertVC addAction:characterType];
@@ -165,6 +180,11 @@
                 [self.navigationController pushViewController:appendixPI animated:true];
             } else {
                 UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Unconnected Printer") preferredStyle:UIAlertControllerStyleAlert];
+                [[alertVC popoverPresentationController] setSourceView:self.view];
+                [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+                [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+                
+
                 UIAlertAction *characterType = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 }];
                 [alertVC addAction:characterType];

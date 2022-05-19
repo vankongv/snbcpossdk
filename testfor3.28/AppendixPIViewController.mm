@@ -204,6 +204,11 @@
     
     if ((isOnlineStatus == 0) || (isCoverOpened == 1) || (isPaperEnd ==1)) {
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Printer status abnormal, please confirm and try again.") preferredStyle:UIAlertControllerStyleAlert];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         UIAlertAction *alertAction = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         }];
         [alertVC addAction:alertAction];
