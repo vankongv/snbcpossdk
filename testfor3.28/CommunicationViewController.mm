@@ -62,6 +62,14 @@
 
 - (IBAction)selectPrinterType:(id)sender {
     UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Please select printer type") preferredStyle:UIAlertControllerStyleActionSheet];
+
+    [[alertVC popoverPresentationController] setSourceView:self.view];
+    [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+    [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+    
+    NSLog(@"selectPrinterType whew lets do this!");
+
+    
     UIAlertAction *characterType1 = [UIAlertAction actionWithTitle:@"BTP-M300" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         self.printerType = @"IMPACT";
         [self initPrinter];
@@ -155,6 +163,11 @@
     }
     if (_handle == (DEVICEHANDLE)ERR_PARAMATER || _handle == (DEVICEHANDLE)ERR_FAIL || _handle == (DEVICEHANDLE)ERR_LOADDLL_FAILURE) {
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Init Printer Error") preferredStyle:UIAlertControllerStyleAlert];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         UIAlertAction *characterType1 = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         }];
         [alertVC addAction:characterType1];
@@ -172,6 +185,11 @@
 
 - (IBAction)selectPortType:(id)sender {
     UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Please select port type") preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    [[alertVC popoverPresentationController] setSourceView:self.view];
+    [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+    [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+
     UIAlertAction *portType1 = [UIAlertAction actionWithTitle:GCLocalizedString(@"BlueTooth") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         self.portTypeMethod = @"BlueTooth";
         [self.selectPortTypeBtn setTitle:[NSString stringWithFormat:@" %@ : %@",GCLocalizedString(@"Port Type"), GCLocalizedString(@"BlueTooth")] forState:UIControlStateNormal];
@@ -220,12 +238,22 @@
     self.printerArr = [str componentsSeparatedByString:@"@"];
     if (self.printerArr.count == 0) {
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"No printer found") preferredStyle:UIAlertControllerStyleAlert];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         UIAlertAction *alertAction = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         }];
         [alertVC addAction:alertAction];
         [self presentViewController:alertVC animated:true completion:nil];
     } else {
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Please select printer") preferredStyle:UIAlertControllerStyleActionSheet];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         for (int i = 0 ; i < self.printerArr.count; i++) {
             UIAlertAction *printerName = [UIAlertAction actionWithTitle:[NSString stringWithFormat:@"%s", [self.printerArr[i] UTF8String]] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 self.PrinterNameLabel.text = self.printerArr[i];
@@ -250,6 +278,11 @@
         result = ClosePort(_handle);
         if (result != ERR_SUCCESS) {
             UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Close port failed") preferredStyle:UIAlertControllerStyleAlert];
+            [[alertVC popoverPresentationController] setSourceView:self.view];
+            [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+            [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+            
+
             UIAlertAction *alertAction = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             }];
             [alertVC addAction:alertAction];
@@ -266,6 +299,14 @@
             if (tmpArr.count > 2) {
                 NSString *tmpStr = [NSString stringWithFormat:@"%s|%s", [tmpArr[1] UTF8String], [tmpArr[2] UTF8String]];
                 char *selectPrinter = (char *)[tmpStr UTF8String];
+                result = OpenBlueToothPort(_handle, selectPrinter);
+            }
+            else if ([self.selectPrinterName containsString:@"|"]) {
+                NSArray *tmpArr = [self.selectPrinterName componentsSeparatedByString:@"|"];
+                char *selectPrinter = (char *)[tmpArr[1] UTF8String];
+                result = OpenBlueToothPort(_handle, selectPrinter);
+            } else {
+                char *selectPrinter = (char *)[self.selectPrinterName UTF8String];
                 result = OpenBlueToothPort(_handle, selectPrinter);
             }
         } else {
@@ -295,6 +336,11 @@
         [self.activityIndicator stopAnimating];
         [self.view setUserInteractionEnabled:true];
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Connect Successful") preferredStyle:UIAlertControllerStyleAlert];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         UIAlertAction *characterType1 = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             self.isConnected = true;
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -312,6 +358,11 @@
         [self.activityIndicator stopAnimating];
         [self.view setUserInteractionEnabled:true];
         UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:GCLocalizedString(@"Tips") message:GCLocalizedString(@"Connect Failure") preferredStyle:UIAlertControllerStyleAlert];
+        [[alertVC popoverPresentationController] setSourceView:self.view];
+        [[alertVC popoverPresentationController] setSourceRect:CGRectMake(0,0,1,1)];
+        [[alertVC popoverPresentationController] setPermittedArrowDirections:UIPopoverArrowDirectionUp];
+        
+
         UIAlertAction *characterType1 = [UIAlertAction actionWithTitle:GCLocalizedString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         }];
         [alertVC addAction:characterType1];
